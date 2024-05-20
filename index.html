@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcular distancia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Coordenadas Tio-Chico</p>
+    <p>latitude: -22.74728</p>
+    <p>Longitude: -50.57567</p>
+    <label>CEP</label>
+    <input placeholder="digite seu CEP" id="cepe" type="text">
+    <button id="btn_env_cep">BUSCAR</button><br>
+    <button id="btn_exibir_dados">EXIBIR</button>
+    <P>RUA: <span id="res_rua"></span></P>
+    <p>BAIRRO: <span id="res_bairro"></span></p>
+    <p>CIDADE: <span id="res_cidade"></span></p>
+    <p id="res_lat"></p>
+    <p id="res_long"></p>
+    <p>Considerando preço de R$0,80 por KM</p>
+    <p><span id="res_distancia"></span></p>
+    <button id="btn_distancia">calcular</button>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
